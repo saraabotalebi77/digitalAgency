@@ -1,0 +1,37 @@
+.service-wrapper{
+    padding-left : 9rem;
+    padding-right: 9rem;
+}
+/* articles styles */
+.article-wrapper{
+    width : 22rem;
+
+}
+.square{
+    height : 2rem;
+    width : 2rem;
+    border : 1px solid var(--Azure);
+}
+hr{
+    width : 3.5rem;
+}
+.header-article{
+    color : #20201f;
+}
+.description-article{
+    color : rgb(80, 80, 80);
+}
+/* images styles */
+.BillGates-img{
+    width : 28rem;
+    height : 37rem;
+    bottom : 18%;
+    left : -10%;
+}
+.phone-img{
+    width : 20rem;
+    height : 30rem;
+    bottom : 13%;
+    right : 20%;
+
+}

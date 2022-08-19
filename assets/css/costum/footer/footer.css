@@ -1,0 +1,55 @@
+/* contactUs wrapper */
+.contactUs-wrapper{
+    height : 53rem;
+    padding-left: 7rem;
+}
+.name-input,
+.email-input,
+.subject-input,
+.message-input{
+    border: none;
+    outline : none;
+    border-bottom: 0.1rem solid rgb(235, 235, 235);
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+}
+.name-input::placeholder,
+.email-input::placeholder,
+.subject-input::placeholder,
+.message-input::placeholder{
+    font-size : 1.3rem;
+    color : rgb(145, 145, 145);
+}
+.message-input{
+    resize: none;
+    margin-top : 2rem;
+}
+.btn{
+    outline : none;
+    border :none;
+    margin : 2rem 0;
+    padding : 1.5rem 3rem;
+    border-radius : 0.2rem;
+}
+
+/* info-company-wrapper */
+.info-company-wrapper{
+    padding-left : 26rem
+}
+.phone-wrapper,
+.email-wrapper,
+.address-wrapper{
+    margin-bottom : 3rem;
+    margin-top: 3rem;
+}
+
+
+
+/* location-img-wrapper */
+.location-img-wrapper{
+    width : 40rem;
+    height : 40rem;
+    top : 50%;
+    left : 45%;
+    transform: translateY(-50%);
+}

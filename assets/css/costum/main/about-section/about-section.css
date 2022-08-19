@@ -1,0 +1,15 @@
+
+/* description-about-wrapper */
+.description-about-wrapper{
+    background-color : #1D1D1B;
+    padding-left : 8rem;
+    padding-right : 8rem;
+}
+/* about-img-wrapper */
+.img-about{
+    width : 45rem;
+    height : 36rem;
+    top : 50%;
+    left : -10%;
+    transform : translateY(-50%);
+}

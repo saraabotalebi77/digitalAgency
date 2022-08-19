@@ -1,0 +1,116 @@
+@media only screen and (max-width: 1180px) {
+    .content{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .header-description-wrapper{
+        width : 50%;
+    }
+    .header-img-wrapper{
+        width : 50%;
+    }
+}
+@media only screen and (max-width: 992px){
+    .header-description-wrapper{
+        width : 60%;
+    }
+    .header-img-wrapper{
+        width : 40%;
+        background-position: center;
+    }
+    .description-about-wrapper{
+        width : 65%;
+    }
+    .about-img-wrapper{
+        width : 35%;
+    }
+    .about-header{
+        font-size : 4rem;
+    }
+    .img-about{
+        width : 30rem;
+        height : 30rem;
+        left : -15%;
+    }
+    .img-service-wrapper{
+        display : none;   
+    }
+    .service-wrapper{
+        width : 100%;
+    }
+    .location-img-wrapper{
+        display : none;
+    }
+    .info-company-wrapper{
+        padding-left : 10rem;
+        padding-right: 10rem;
+    }
+}
+@media screen and (max-width:768px){
+    .header-img-wrapper{
+        display: none;
+    }
+    .header-description-wrapper{
+        width : 100%;
+        align-items: center;
+    }
+    .description-about-wrapper{
+        width : 100%;
+    }
+    .about-img-wrapper{
+        display : none;
+    }
+    .service-section{
+        padding-top : 1rem;
+        padding-bottom : 1rem;
+    }
+    .service-wrapper{
+        padding : 0;
+    }
+    .service-wrapper{
+        justify-content: center;
+
+    }
+    .info-company-wrapper{
+        width : 100%;
+    }
+    .contactUs-wrapper{
+        width : 100%;
+    }
+    .info-company-wrapper{
+        padding-left : 1rem;
+        padding-right : 1rem;
+        flex-direction: row;
+        justify-content: space-around;
+        gap : 2rem;
+    }
+}
+@media screen and (max-width: 378px){
+    .website-name,
+    .about-header,
+    .service-header,
+    .portfolio-header,
+    .ourteam-header,
+    .header-contactUs{
+        font-size : 3rem;
+        /* font-weight : 400; */
+    }
+    .website-description-wrapper,
+    .description-about-wrapper,
+    .contactUs-wrapper{
+        padding-left : 2rem;
+        padding-right : 2rem;
+        align-items: center;
+    }
+    .info-company-wrapper{
+        flex-direction :column;
+        padding-left : 5rem; 
+        padding-top : 3rem;
+    }
+    .phone-wrapper,
+    .email-wrapper,
+    .address-wrapper{
+    margin-bottom : 1rem;
+    margin-top: 1rem;
+}
+}

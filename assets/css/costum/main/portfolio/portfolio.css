@@ -1,0 +1,12 @@
+
+.portfilio-card{
+    width : 25rem;
+    height : 25rem;
+}
+.portfolio-txt,
+.portfolio-header{
+    margin-top: 1rem ;
+}
+.portfilio-cards-wrapper{
+    margin-top : 4rem;
+}

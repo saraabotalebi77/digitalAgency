@@ -1,0 +1,30 @@
+:root{
+    --Azure : #6458FF;
+    --white : #fff;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing : border-box;
+}
+html,
+body{
+    width : 100%;
+    overflow-x : hidden;
+}
+html{
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size : 1.8rem;
+    background-color: #B675EB;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type : none;
+}
+

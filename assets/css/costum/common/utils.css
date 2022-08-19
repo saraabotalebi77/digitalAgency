@@ -1,0 +1,144 @@
+/* grid-utils */
+.content{
+    max-width : 1180px;
+    margin : 8rem auto;
+}
+
+/* flexBox-utils */
+.d-flex{
+    display:flex;
+}
+.f-flow-row-wrap{
+    flex-direction : row;
+    flex-wrap : wrap;
+}
+.f-justify-content-center{
+    justify-content: center;
+}
+.f-justify-content-flexStart{
+    justify-content: flex-start;
+}
+.f-justify-content-spaceBetween{
+    justify-content: space-between;
+}
+.f-justify-content-spaceAround{
+    justify-content: space-around;
+}
+.f-justify-content-spaceEvenly{
+    justify-content: space-evenly;
+}
+.f-align-items-flexEnd{
+    align-items: flex-end;
+}
+.f-align-items-center{
+    align-items : center;
+}
+.f-align-items-flexStart{
+    align-items : flex-start
+}
+.f-align-content-flexStart{
+    align-content: flex-start;
+}
+.f-direction-column{
+    flex-direction: column;
+}
+.f-grow-1{
+    flex-grow: 1;
+}
+.f-shrink-0{
+    flex-shrink : 0;
+}
+.gap-1{
+    gap : 1rem;
+}
+.gap-2{
+    gap : 2rem;
+}
+
+
+/* boxModel-utils */
+.w-100per_h-53rem{
+    width : 100%;
+    min-height : 53rem;
+}
+.h-100per{
+    height : 100%;
+}
+.w-100per{
+    width : 100%
+}
+.w-60per{
+    width : 60%;
+}
+.w-50per{
+    width : 50%;
+}
+.w-40per{
+    width : 40%;
+}
+.p-relative{
+    position: relative;
+}
+.p-absolute{
+    position : absolute;
+}
+.m-t5px{
+    margin-top: 0.5rem;
+}
+.m-b5px{
+    margin-bottom: 0.5rem;
+}
+
+
+
+/*color-utils */
+
+.bg-color-Azure{
+    background-color : var(--Azure);
+}
+.bg-color-white{
+    background-color : var(--white);
+}
+.color-white{
+    color : var(--white);
+}
+.color-Azure{
+    color : var(--Azure);
+}
+
+
+
+/* typograohy-utils */
+.textTransform-up{
+    text-transform: uppercase;
+}
+.textTransform-Cap{
+    text-transform:capitalize;
+}
+.letter-space-2px{
+    letter-spacing: 0.2rem;
+}
+.fo-size-10px{
+    font-size: 1rem;
+}
+.fo-size-12px{
+    font-size : 1.2rem;
+}
+.fo-size-13px{
+    font-size : 1.3rem;
+}
+.fo-size-50px{
+    font-size : 5rem;
+}
+.fo-size-15px{
+    font-size : 1.5rem;
+}
+.fo-weight-500{
+    font-weight : 500;
+}
+.fo-weight-200{
+    font-weight: 200;
+}
+.fo-weight-600{
+    font-weight: 600;
+}
