@@ -2,6 +2,9 @@
     padding-left : 9rem;
     padding-right: 9rem;
 }
+.service-txt,.service-header{
+    margin-right : auto;
+}
 /* articles styles */
 .article-wrapper{
     width : 22rem;

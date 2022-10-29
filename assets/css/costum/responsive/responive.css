@@ -63,6 +63,8 @@
     .service-section{
         padding-top : 1rem;
         padding-bottom : 1rem;
+        padding-left: 9rem;
+        padding-right : 9rem;
     }
     .service-wrapper{
         padding : 0;
@@ -85,7 +87,7 @@
         gap : 2rem;
     }
 }
-@media screen and (max-width: 378px){
+@media screen and (max-width: 576px){
     .website-name,
     .about-header,
     .service-header,
@@ -95,12 +97,23 @@
         font-size : 3rem;
         /* font-weight : 400; */
     }
+    
     .website-description-wrapper,
     .description-about-wrapper,
     .contactUs-wrapper{
         padding-left : 2rem;
         padding-right : 2rem;
         align-items: center;
+    }
+    .service-header,.service-txt{
+        margin-right :0;
+    }
+    .service-article-wrapper{
+        justify-content: center;
+    }
+
+    .website-description{
+        text-align : center;
     }
     .info-company-wrapper{
         flex-direction :column;
